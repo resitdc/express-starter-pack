@@ -11,13 +11,14 @@
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
     "paths": {
-      "src/*": ["src/*"],
-      "routes/*": ["src/routes/*"],
-      "middlewares/*": ["src/middlewares/*"],
-      "controllers/*": ["src/controllers/*"],
-      "models/*": ["src/models/*"],
-      "utils/*": ["src/utils/*"],
-      "config/*": ["src/config/*"]
+      "@root/*": ["*"],
+      "@src/*": ["src/*"],
+      "@routes/*": ["src/routes/*"],
+      "@middlewares/*": ["src/middlewares/*"],
+      "@controllers/*": ["src/controllers/*"],
+      "@models/*": ["src/models/*"],
+      "@utils/*": ["src/utils/*"],
+      "@config/*": ["src/config/*"]
     },
     "types": ["node","objection"],
   },
